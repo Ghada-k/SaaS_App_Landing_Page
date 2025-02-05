@@ -18,12 +18,12 @@ const Button = ({ icon, children, href, containerClassName, onClick, markerFill}
     )
     return href ? (
     <a className={clsx("relative p-0.5 g5 rounded-2xl shadow-500 group" , containerClassName)}
-       href={href} >
+       href={href} > 
         <Inner/>
 
     </a>
   ):(
-    <button className={clsx("relative p-0.5 g5 rounded-2xl shadow-500 group")}
+    <button className={clsx("relative p-0.5 g5 rounded-2xl shadow-500 group" , containerClassName)}
             onClick={onClick}>
         <Inner/>
     </button>
