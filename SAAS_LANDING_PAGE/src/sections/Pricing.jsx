@@ -25,8 +25,8 @@ const Pricing = () => {
                         <div className= {clsx("g4 rounded-14 before:h-100 pricing-head_btn_before absolute left-2 top-2 h-[calc(100%-16px)] w-[calc(50%-8px)] overflow-hidden shadow-400 transition-transform duration-500",!monthly && ' translate-x-full ') }/>
                     </div>
                     <div className="pricing-bg">
-                        <img src="/images/bg-outlines.svg" width={960} height={380} alt="outline" className="relative z-2" />
-                        <img src="/images/bg-outlines-fill.png" width={960} height={380} alt="outline" className="absolute inset-0 opacity-5 mix-blend-soft-light" />
+                        <img src="/SAAS_LANDING_PAGE/public/images/bg-outlines.svg" width={960} height={380} alt="outline" className="relative z-2" />
+                        <img src="/SAAS_LANDING_PAGE/public/images/bg-outlines-fill.png" width={960} height={380} alt="outline" className="absolute inset-0 opacity-5 mix-blend-soft-light" />
                     </div>
                 </div>
                 {/* pricing section */}
@@ -68,7 +68,7 @@ const Pricing = () => {
                             <ul className="mx-auto space-y-4 xl:px-7">
                                 {plan.features.map((feature => (
                                     <li key = {feature} className="relative flex items-center gap-5">
-                                        <img src={"/images/check.png"} alt="check" className="size-10 object-contain" />
+                                        <img src={"/SAAS_LANDING_PAGE/public/images/check.png"} alt="check" className="size-10 object-contain" />
                                         <p className="flex-1">{feature}</p>
                                     </li>
                                 )))}
