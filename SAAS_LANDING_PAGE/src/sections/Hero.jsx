@@ -17,11 +17,11 @@ const Hero = () => {
                         learn, and surprisingly powerful.
                     </p>
                     <LinkScroll to="features" offset={-100} spy smooth>
-                        <Button icon="/images/zap.svg">Try it now</Button>
+                        <Button icon="/SaaS_App_Landing_Page/images/zap.svg">Try it now</Button>
                     </LinkScroll>
                 </div>
                 <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
-                    <img src="/SAAS_LANDING_PAGE/public/images/hero.png" alt="Hero Image" className="size-1230 max-lg:h-auto"/>
+                    <img src="/SaaS_App_Landing_Page/images/hero.png" alt="Hero Image" className="size-1230 max-lg:h-auto"/>
 
                 </div>
             </div>

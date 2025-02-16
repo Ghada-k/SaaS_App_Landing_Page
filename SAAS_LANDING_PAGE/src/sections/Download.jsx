@@ -12,7 +12,7 @@ const Download = () => {
                     <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
                         <div className="mb-10">
                             <img 
-                                src="/SAAS_LANDING_PAGE/public/images/xora.svg" 
+                                src="/SaaS_App_Landing_Page/images/xora.svg" 
                                 width={160}
                                 height={55}
                                 alt="xora" 
@@ -28,7 +28,7 @@ const Download = () => {
                                         <span className="absolute -top-2 rotate-90">
                                             <Marker/>
                                         </span>
-                                        <img src={'SAAS_LANDING_PAGE/public/images/lines.svg'} 
+                                        <img src={'/SaaS_App_Landing_Page/images/lines.svg'} 
                                             alt="lines"
                                             className="absolute size-13/20 object-contain" 
                                         />
@@ -47,7 +47,7 @@ const Download = () => {
                                 <span className="download_preview-dot left-11 bg-s3"/>
                                 <span className="download_preview-dot left-16 bg-p1/15"/>
 
-                                <img src="SAAS_LANDING_PAGE/public/images/screen.jpg" 
+                                <img src="/SaaS_App_Landing_Page/images/screen.jpg" 
                                 width={855}
                                 height={655} 
                                 alt="screen"
